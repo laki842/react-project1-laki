@@ -1,0 +1,16 @@
+.video-container {
+  height: calc(80vh - 122px);
+  display: flex;
+  justify-content: center;
+  background-color: antiquewhite;
+  padding: 1rem;
+  align-items: center;
+}
+
+.react-video {
+  width: 1000px;
+}
+
+.countdown-container {
+  background-color: rgb(250, 250, 215);
+}

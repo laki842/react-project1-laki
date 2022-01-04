@@ -1,0 +1,28 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #000046, #1cb5e0);
+  padding: 2rem;
+}
+
+.nav-container li {
+  list-style: none;
+  margin: 10px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 2rem;
+  color: white;
+  border-radius: 1rem;
+  background-color: rgba(2, 2, 8, 0.5);
+}
+
+.nav-container a:hover {
+  color: white;
+  background-color: rgba(2, 2, 8, 0.2);
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #817fee,
+    0 0 30px #7472ee, 0 0 40px #5f5cf0, 0 0 55px #403dec, 0 0 75px #2c29e9;
+}
